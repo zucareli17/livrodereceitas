@@ -1,0 +1,160 @@
+body{
+	font-family: "Pixelify Sans", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 400;
+  	font-style: normal;
+	color: #000000;
+	background-color: #DCE7EF;
+	height: -webkit-fill-available;
+}
+
+.logo {
+	width: 75px;
+	padding-right: 35px;
+}
+
+header{
+	background-color: #E9C8B2;
+	padding: 20px 0;
+	height: 90px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.caixa{
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#nav-menu {
+	margin: 0;
+	width: 100%;
+}
+nav {
+	width: 100%;
+	top: 50px;
+	right: 0;
+	vertical-align: middle;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none; 
+	margin: 0 0 0 10px;
+}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration:none;
+}
+nav a:hover {
+	color: #756255;
+	text-decoration: underline;
+	transition: 0.3s;
+}
+.submenu{
+	background-color: #c95a50;
+}
+.submenu li{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 10px 95px;
+}
+.submenu li a {
+	font-size: 25px;
+	text-decoration: none;
+	color: antiquewhite;
+}
+.submenu li a:hover{
+	color: rgb(221, 205, 184);
+	text-decoration: underline;
+	transition: 0.3s;
+}
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+form{
+	margin: 40px 0;
+	border-radius: 80px;
+}
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+fieldset{
+	border-radius: inherit;
+}
+.rec{
+	display: flex;
+    flex-direction: column;
+}
+.ingre{
+	border-radius: 50px;
+	margin: 8px;
+	padding: 10px;
+}
+.modo{
+	border-radius: 50px;
+	margin: 8px;
+	padding: 10px;
+}
+.sug{
+	border-radius: 50px;
+	margin: 8px;
+}
+label{
+	padding: 10px 0px 5px;
+}
+.click{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+	border-radius: 80px;
+}
+.checkbox{
+	margin: 20px 0;
+	border-radius: 80px;
+}
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+    background: #E9C8B2;
+    color:#4e323e;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 80px;
+    transition: 0s all;
+    cursor: pointer;
+}
+.enviar:hover{
+	background:#C1829D;
+	color: rgb(255, 244, 223);
+	transform: scale(1.0);
+}	
+footer{
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px;
+    margin-top: 23px;
+}		
+.copyright{
+	color:black;
+	font-size: 13px;
+	margin: 20px 0 0;
+	align-content: center;
+}
+.logorp{
+	width: 45px;
+} 
+select {
+    border-radius: inherit;
+	width: 100px;
+}

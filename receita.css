@@ -1,0 +1,137 @@
+body{
+	font-family: "Pixelify Sans", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 400;
+  	font-style: normal;
+	color: #000000;
+	background-color: #DCE7EF;
+	height: -webkit-fill-available;
+}
+
+.logo {
+	width: 75px;
+	padding-right: 35px;
+}
+
+header{
+	background-color: #E9C8B2;
+	padding: 20px 0;
+	height: 90px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.caixa{
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#nav-menu {
+	margin: 0;
+	width: 100%;
+}
+nav {
+	width: 100%;
+	top: 50px;
+	right: 0;
+	vertical-align: middle;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none; 
+	margin: 0 0 0 10px;
+}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration:none;
+}
+nav a:hover {
+	color: #756255;
+	text-decoration: underline;
+	transition: 0.3s;
+}
+.submenu{
+	background-color: #c95a50;
+}
+.submenu li{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 10px 95px;
+}
+.submenu li a {
+	font-size: 25px;
+	text-decoration: none;
+	color: antiquewhite;
+}
+.submenu li a:hover{
+	color: rgb(221, 205, 184);
+	text-decoration: underline;
+	transition: 0.3s;
+}
+.receita{
+	text-align: center;
+}
+.ftreceita{
+	width: 225px;
+}
+.titulo{
+	font-size: 55px;
+}
+.ing{
+	width: 50px;
+}
+h3{
+	font-size: 40px;
+}
+p{
+	font-size: 20px;
+}
+.ingredientes{
+	display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 6%;
+}
+.ingredientes ul{
+	padding: 8px 0 0 0;
+}
+.prep{
+	width: 50px;
+}
+.mododepreparo{
+	align-items: flex-end;
+	text-align: left; 
+	width: 35%;
+}
+.mododepreparo ol{
+	padding: 8px 0 0 0;
+}
+footer{
+	display: block;
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px;
+    margin-top: 23px;
+}		
+.copyright{
+	color:black;
+	font-size: 13px;
+	margin: 20px 0 0;
+	align-content: center;
+}
+.logorp{
+	width: 45px;
+} 
+
+.div-behind{
+	display: flex;
+    width: 100%;
+    justify-content: center;
+	padding: 30px 0 0 100px;
+}   			/*ISSO AQUI É A DIV DO MODO DE PREPARO E RECEITA  */

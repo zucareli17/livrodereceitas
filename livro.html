@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8">
+<title>Sweet Bites</title>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="livro.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="imagex/png" href="favicon.ico">
+<!-- Incluindo o CSS do Slick -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+<head>
+    <body>
+        <header>
+            <div class="caixa">
+                <a href="livro.html"><img src="logo.png" alt="" class="logo"></a>
+                <nav class="menu">
+                    <ul id="nav-menu">
+                        <li><a href="livro.html">Home</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="submenu">
+            <li><a href="salgados.html">Salgados</a></li>
+            <li><a href="massas.html">Massas</a></li>
+            <li><a href="cozidos.html">Cozidos</a></li>
+            <li><a href="assados.html">Assados</a></li>
+            <li><a href="sobremesas.html">Sobremesas</a></li>
+            <li><a href="bebidas.html">Bebidas</a></li>
+        </div>	
+
+        <div>
+            <main>	
+                <!-- Slider com Slick -->           
+                <div class="itens slider">                    
+                    <div class="slide-dos-itens">
+                        <a>
+                            <img src="./fotos/panquecas.png" class="img">
+                            <h2>Panqueca</h2>
+                            <section class="clock"><img src="clock.png" class="ico"><p class="min">20min</p></section>
+                            <a href="panqueca.html" class="bot"><b>Ver Detalhes</b></a> 
+                        </a>
+                    </div>
+                    
+                    <div class="slide-dos-itens">
+                        <a>
+                            <img src="./fotos/macarrao.png" class="img" style="margin-left: 25px !important;">
+                            <h2>Macarrão ao<br>Molho Branco</h2>
+                            <section class="clock" style="margin-left: 50px !important;"><img src="clock.png" class="ico"><p class="min">50min</p></section>
+                            <a href="macarrao.html" class="bot"><strong>Ver Detalhes</strong></a>
+                        </a>
+                    </div>
+                    
+                    <div class="slide-dos-itens">
+                        <a>
+                            <img src="./fotos/pao.png" class="img">
+                            <h2>Pão caseiro</h2>
+                            <section class="clock"><img src="clock.png" class="ico"><p class="min">120min</p></section>
+                            <a href="paocaseiro.html" class="bot"><strong>Ver Detalhes</strong></a>
+                        </a>
+                    </div>
+                    
+                    <div class="slide-dos-itens">
+                        <a>
+                            <img src="./fotos/bolodecoco.png" class="img">
+                            <h2>Bolo de coco</h2>
+                            <section class="clock"><img src="clock.png" class="ico"><p class="min">100min</p></section>
+                            <a href="bolodecoco.html" class="bot"><strong>Ver Detalhes</strong></a>
+                        </a>
+                    </div>
+                    
+                    <div class="slide-dos-itens">
+                        <a>
+                            <img src="./fotos/ravioli.png" class="img">
+                            <h2>Ravioli</h2>
+                            <section class="clock"><img src="clock.png" class="ico"><p class="min">130min</p></section>
+                            <a href="ravioli.html" class="bot"><strong>Ver Detalhes</strong></a>
+                        </a>
+                    </div>
+                    
+                    <div class="slide-dos-itens">
+                        <a>
+                            <img src="./fotos/bolodebanana.png" class="img">
+                            <h2>Bolo de Banana</h2>
+                            <section class="clock"><img src="clock.png" class="ico"><p class="min">100min</p></section>
+                            <a href="bolodebanana.html" class="bot"><strong>Ver Detalhes</strong></a>
+                        </a>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <footer>
+            <a href="livro.html"><img src="logopb.png" class="logorp"></a>
+            <p class="copyright">&copy; Copyright Sweet Bites - 2024</p>
+        </footer>
+
+        <!-- Incluindo jQuery e Slick JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+        <!-- Inicialização do Slick -->
+        <script>
+            $(document).ready(function()
+            {
+                $('.slider').slick({
+                    dots: true,
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 4,  /* Mostra 3 itens por vez no slider */
+                    slidesToScroll: 2,
+                    arrows: true,
+                });
+            });
+        </script>
+
+    </body>
+</head>
+</html>
+
